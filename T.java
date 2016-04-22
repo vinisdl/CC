@@ -4,15 +4,15 @@ import java.io.*;
 
 public class T
 {
-     private String s;
-     private InputStreamReader i = new InputStreamReader (System.in);
-     private BufferedReader d = new BufferedReader(i);
+     private static String s;
+     private static InputStreamReader i = new InputStreamReader (System.in);
+     private static BufferedReader d = new BufferedReader(i);
 
      /**
         Lê um inteiro.
         @return int
      */
-     public int leInt ()
+     public static int leInt ()
      {   int a = 0;
          try
          {
@@ -34,7 +34,7 @@ public class T
         Lê um inteiro, com mensagem.
         @return int
      */
-     public int leInt (String msg)
+     public static int leInt (String msg)
      {   int a = 0;
          System.out.println(msg);
          try
@@ -57,7 +57,7 @@ public class T
         Lê um double.
         @return double
      */
-     public double leDouble()
+     public static double leDouble()
      {   double a = 0;
          try
          {
@@ -79,7 +79,7 @@ public class T
         Lê um double, com mensagem.
         @return double
      */
-     public double leDouble(String msg)
+     public static double leDouble(String msg)
      {   double a = 0;
          System.out.println(msg);
          try
@@ -102,7 +102,7 @@ public class T
         Lê um string.
         @return String
      */
-     public String leString()
+     public static String leString()
      {   s = "";
          try
          {
@@ -119,7 +119,7 @@ public class T
         Lê um string. com mensagem.
         @return String
      */
-     public String leString(String msg)
+     public static String leString(String msg)
      {   s = "";
          System.out.println(msg);
          try
@@ -133,7 +133,7 @@ public class T
          return (s);
      }
      
-     public char leChar()
+     public static char leChar()
      {   char a = ' ';
          try
          {
@@ -155,7 +155,7 @@ public class T
         Lê um char, com mensagem.
         @return char
      */
-     public char leChar(String msg)
+     public static char leChar(String msg)
      {   char a = ' ';
          System.out.println(msg);
          try
@@ -174,4 +174,3 @@ public class T
          return (a);
      }
 }
-

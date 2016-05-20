@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ leInt()
+comment0.text=\n\ \ \ \ \ \ \ \ L\u00EA\ um\ inteiro.\n\ \ \ \ \ \ \ \ @return\ int\n
+comment1.params=msg
+comment1.target=int\ leInt(java.lang.String)
+comment1.text=\n\ \ \ \ \ \ \ \ L\u00EA\ um\ inteiro,\ com\ mensagem.\n\ \ \ \ \ \ \ \ @return\ int\n
+comment2.params=
+comment2.target=double\ leDouble()
+comment2.text=\n\ \ \ \ \ \ \ \ L\u00EA\ um\ double.\n\ \ \ \ \ \ \ \ @return\ double\n
+comment3.params=msg
+comment3.target=double\ leDouble(java.lang.String)
+comment3.text=\n\ \ \ \ \ \ \ \ L\u00EA\ um\ double,\ com\ mensagem.\n\ \ \ \ \ \ \ \ @return\ double\n
+comment4.params=
+comment4.target=java.lang.String\ leString()
+comment4.text=\n\ \ \ \ \ \ \ \ L\u00EA\ um\ string.\n\ \ \ \ \ \ \ \ @return\ String\n
+comment5.params=msg
+comment5.target=java.lang.String\ leString(java.lang.String)
+comment5.text=\n\ \ \ \ \ \ \ \ L\u00EA\ um\ string.\ com\ mensagem.\n\ \ \ \ \ \ \ \ @return\ String\n
+comment6.params=
+comment6.target=char\ leChar()
+comment7.params=msg
+comment7.target=char\ leChar(java.lang.String)
+comment7.text=\n\ \ \ \ \ \ \ \ L\u00EA\ um\ char,\ com\ mensagem.\n\ \ \ \ \ \ \ \ @return\ char\n
+numComments=8

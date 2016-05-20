@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=bichinho
+comment1.target=Tamagotchi\ exercitar(Tamagotchi)
+comment2.params=bichinho
+comment2.target=Tamagotchi\ sono(Tamagotchi)
+comment3.params=bichinho
+comment3.target=Tamagotchi\ fome(Tamagotchi)
+numComments=4

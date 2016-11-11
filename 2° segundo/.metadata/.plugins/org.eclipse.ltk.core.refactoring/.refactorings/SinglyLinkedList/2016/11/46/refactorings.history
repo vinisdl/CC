@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy 5 elements to &apos;TesteGB/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;SinglyLinkedList&apos;&#x0D;&#x0A;- Destination element: &apos;TesteGB/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Stack.java&#x0D;&#x0A;     OverflowException.java&#x0D;&#x0A;     UnderflowException.java&#x0D;&#x0A;     StaticStack.java&#x0D;&#x0A;     List.java" description="Copy compilation units" destination="=TesteGB/src&lt;" element1="/src&lt;{Stack.java" element2="/src&lt;{OverflowException.java" element3="/src&lt;{UnderflowException.java" element4="/src&lt;{StaticStack.java" element5="/src&lt;{List.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1478727917169" units="5" version="1.0"/>
-</session>

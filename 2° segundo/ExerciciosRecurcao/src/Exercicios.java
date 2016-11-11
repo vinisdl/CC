@@ -34,4 +34,26 @@ public class Exercicios {
 		else
 			return a[n] + forGambi(a, n-1);
 	}	
+	
+	public int mdc(int x,  int y){
+		if(x>= y && x%y == 0)
+			return y;		
+		if(x<y)
+			return mdc(x,y);		
+		return mdc(y, x%y);
+	}
+	
+	public boolean procuraNaString(String s, char c){
+		
+		return searchString(s,0,c);
+	}
+	
+	private boolean searchString(String s, int i, char c){
+		if(s.toLowerCase().charAt(i) == c)
+			return true;
+		else if(s.length() - 1 == i)
+			return false;
+		return searchString(s, i+1, c);		
+	}
+	
 }

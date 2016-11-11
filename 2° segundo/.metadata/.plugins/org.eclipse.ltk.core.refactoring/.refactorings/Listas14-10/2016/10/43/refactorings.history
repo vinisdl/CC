@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;Execicio-21-10/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;Listas14-10&apos;&#x0D;&#x0A;- Destination element: &apos;Execicio-21-10/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     List.java&#x0D;&#x0A;     StaticList.java" description="Copy compilation units" destination="=Execicio-21-10/src&lt;" element1="/src&lt;{List.java" element2="/src&lt;{StaticList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1477092469504" units="2" version="1.0"/>
+</session>

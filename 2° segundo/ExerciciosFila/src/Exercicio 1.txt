@@ -1,0 +1,62 @@
+Exercicio 1:
+  Pos   0 1 2 3 4 5
+       [1,2,3,4,5, ]
+	isFull()
+		first == ((last + 1) % elements.length);
+		Ex: array de 6(0-5) posições e o last esta no 4 e o first na 0
+		
+		4+1 % 6 = 5
+		5 deve ser a posição do first, porem nao é o que indica que o array não está cheio
+		
+		Em miudos, verifica se a proxima possição que irá inserir é a first.	
+
+	numElements()
+		int n = elements.length; 
+		((n + last - first) % n) + 1;
+		Esse N e o %(mod) não servem pra nada
+		
+		ex: n = 6;
+		
+		 (4 + 1) + 1
+		
+enqueue()
+	if (isFull())
+			throw new OverflowException();
+		else {
+			if (last == -1)
+				first = last = 0;
+			else
+				last = (last + 1) % elements.length;
+			elements[last] = element;
+		}
+		
+		verifica se esta cheio,
+		verifica se esta vazia.
+			e comoca last em 0 e first em 0;
+		pega a ultima posição e verifica se deve fazer circularmente o calculo
+		pois quando last + 1 for igual a array.lenght (6) o mod será 0 e fará o efeito circular.
+		
+		adiciona o elemento no valor de last.
+
+dequeue()
+	if (isEmpty())
+			throw new UnderflowException();
+		E element = elements[first];
+		elements[first] = null; // p/ coleta de lixo
+		if (first == last)
+			first = last = -1;
+		else
+			first = (first + 1) % elements.length;
+
+		return element;
+		
+		
+		verifica se a lista esta vazia.
+		salva o elemento no first para retornar.
+		seta o elemento first null
+		verifica se o first = ao last para setar empty.
+		pega a primeira posição e verifica se deve fazer circularmente
+		pois quando first + 1 for igual a array.lenght (6) o mod será 0 e fará o efeito circular.
+		
+
+

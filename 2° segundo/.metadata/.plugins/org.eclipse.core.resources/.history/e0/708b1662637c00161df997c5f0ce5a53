@@ -1,0 +1,37 @@
+
+public class Principal {
+	public static void main(String[] args) {
+		int[][] ar = Array.criaArrayBidimensionalRandom(4, 4);
+		Array.imprimeArrayBidimensional(ar, "Questão 2");
+
+		Principal p = new Principal();
+
+		System.out.println();
+		System.out.println(p.averageOddLines(ar));
+
+	}
+
+	public double averageOddLines(int[][] matriz){
+		double media = 0;
+		double mediaParcial = 0;
+
+		int linhas = 1;
+		for (int i = 0; i < matriz.length; i++) {
+			if(i % 2 == 1){
+				for (int j = 0; j < matriz[i].length; j++) {
+					mediaParcial = mediaParcial + matriz[i][j];
+					
+				}
+				if(i != 1)
+					linhas ++;	
+				System.out.println(mediaParcial);
+				System.out.println(mediaParcial / matriz[i].length);
+				System.out.println(matriz[i].length);
+				media += mediaParcial / matriz[i].length;
+				mediaParcial = 0;
+			}
+		}
+		System.out.println(linhas);
+		return media/linhas;
+	}
+}

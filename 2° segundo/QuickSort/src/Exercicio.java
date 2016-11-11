@@ -2,7 +2,7 @@ public class Exercicio {
 	public static void main(String a[]){
 
 		Exercicio s = new Exercicio();
-		int[] input = {-10,-23,2,0,5,1,15,7,3,-1};
+		int[] input = {10,87,8,-3,-34,-22,89,0,1,37,14,-2};
 		s.sort(input);
 		for(int i:input){
 			System.out.print(i);

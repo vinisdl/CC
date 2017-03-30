@@ -1,0 +1,7 @@
+﻿  Shapes.cpp
+d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.h(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  HelloGLFW.vcxproj -> D:\Ciência do computação\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\HelloGLFW.exe
+  HelloGLFW.vcxproj -> D:\Ciência do computação\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\HelloGLFW.pdb (Partial PDB)

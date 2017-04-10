@@ -1,7 +1,25 @@
-﻿  Shapes.cpp
-d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.h(7): warning C4305: 'initializing': truncation from 'double' to 'float'
-d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-d:\ciência do computação\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-  HelloGLFW.vcxproj -> D:\Ciência do computação\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\HelloGLFW.exe
-  HelloGLFW.vcxproj -> D:\Ciência do computação\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\HelloGLFW.pdb (Partial PDB)
+﻿  Source.cpp
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.h(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\aula - 20-03\helloglfw\helloglfw\source.cpp(42): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\aula - 20-03\helloglfw\helloglfw\source.cpp(71): warning C4101: 'ratio': unreferenced local variable
+  Shapes.cpp
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.h(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\aula - 20-03\helloglfw\helloglfw\shapes.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  LINK : D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\HelloGLFW.exe not found or not built by the last incremental link; performing full link
+glfw3.lib(context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(context.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(init.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(input.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(input.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(monitor.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(window.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_init.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_init.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_monitor.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_monitor.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_time.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_time.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_tls.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_tls.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(win32_window.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(win32_window.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(winmm_joystick.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(winmm_joystick.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+glfw3.lib(wgl_context.obj) : warning LNK4099: PDB 'glfw.pdb' was not found with 'glfw3.lib(wgl_context.obj)' or at 'D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\glfw.pdb'; linking object as if no debug info
+  HelloGLFW.vcxproj -> D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\HelloGLFW.exe
+  HelloGLFW.vcxproj -> D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\Aula - 20-03\HelloGLFW\Debug\HelloGLFW.pdb (Partial PDB)

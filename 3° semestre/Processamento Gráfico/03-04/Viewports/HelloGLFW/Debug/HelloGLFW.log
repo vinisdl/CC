@@ -1,0 +1,8 @@
+﻿  Shapes.cpp
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\03-04\viewports\helloglfw\shapes.h(7): warning C4305: 'initializing': truncation from 'double' to 'float'
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\03-04\viewports\helloglfw\shapes.cpp(28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\03-04\viewports\helloglfw\shapes.cpp(29): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\03-04\viewports\helloglfw\shapes.cpp(30): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+d:\users\marco.dalalba\documents\cc\3° semestre\processamento gráfico\03-04\viewports\helloglfw\shapes.cpp(129): warning C4305: 'argument': truncation from 'double' to 'GLfloat'
+  HelloGLFW.vcxproj -> D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\03-04\Viewports\Debug\HelloGLFW.exe
+  HelloGLFW.vcxproj -> D:\Users\marco.dalalba\Documents\CC\3° semestre\Processamento Gráfico\03-04\Viewports\Debug\HelloGLFW.pdb (Partial PDB)

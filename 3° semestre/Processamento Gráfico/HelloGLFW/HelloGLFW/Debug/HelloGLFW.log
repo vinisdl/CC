@@ -1,8 +1,0 @@
-﻿  Shapes.cpp
-c:\users\mdalalba\downloads\helloglfw\helloglfw\shapes.h(7): warning C4305: 'initializing': truncation from 'double' to 'float'
-c:\users\mdalalba\downloads\helloglfw\helloglfw\shapes.cpp(25): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\mdalalba\downloads\helloglfw\helloglfw\shapes.cpp(26): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\mdalalba\downloads\helloglfw\helloglfw\shapes.cpp(27): warning C4305: 'argument': truncation from 'double' to 'float'
-c:\users\mdalalba\downloads\helloglfw\helloglfw\shapes.cpp(65): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-  HelloGLFW.vcxproj -> C:\Users\mdalalba\Downloads\HelloGLFW\Debug\HelloGLFW.exe
-  HelloGLFW.vcxproj -> C:\Users\mdalalba\Downloads\HelloGLFW\Debug\HelloGLFW.pdb (Partial PDB)
